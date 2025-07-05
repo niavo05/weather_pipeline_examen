@@ -3,7 +3,7 @@ import pandas as pd
 from datetime import datetime
 import os
 
-API_KEY = "blablablablabla"  # A remplace par ta vraie clé
+API_KEY = "a5ff598afec568f3e6713ae24ce378fb"
 
 cities = {
     "Antananarivo": "Antananarivo",
