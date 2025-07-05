@@ -7,9 +7,10 @@ API_KEY = "a5ff598afec568f3e6713ae24ce378fb"
 
 cities = {
     "Antananarivo": "Antananarivo",
-    "Quebec": "Quebec",
-    "Bruxelles": "Brussels"
+    "Paris": "Paris",
+    "Tokyo": "Tokyo"
 }
+
 
 def extract_current():
     data = []

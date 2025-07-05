@@ -6,8 +6,8 @@ import os
 def extract_historical():
     cities = {
         "Antananarivo": (-18.8792, 47.5079),
-        "Quebec": (46.8139, -71.2082),
-        "Bruxelles": (50.8503, 4.3517)
+        "Paris": (48.8566, 2.3522),
+        "Tokyo": (35.6895, 139.6917)
     }
 
     start = datetime.now().replace(year=datetime.now().year - 5)

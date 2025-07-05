@@ -1,6 +1,10 @@
 from airflow import DAG
-from airflow.operators.python import PythonOperator
+from airflow.providers.standard.operators.python import PythonOperator
 from datetime import datetime
+
+import sys
+import os
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
 from scripts import extract_historical, extract_current
 from scripts import clean_historical, clean_current, merge_data
