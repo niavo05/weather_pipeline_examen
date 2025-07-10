@@ -8,8 +8,20 @@ API_KEY = "a5ff598afec568f3e6713ae24ce378fb"
 cities = {
     "Antananarivo": "Antananarivo",
     "Paris": "Paris",
-    "Tokyo": "Tokyo"
+    "Tokyo": "Tokyo",
+    "India": "New Delhi",
+    "USA": "Washington",
+    "UK": "London",
+    "Finland": "Helsinki",
+    "Brazil": "Brasilia",
+    "Italy": "Rome",
+    "Spain": "Madrid",
+    "Germany": "Berlin",
+    "Antarctica": "Antarctica",
+    "Egypt": "Cairo",
+    "South Africa": "Pretoria"
 }
+
 
 
 def extract_current():
